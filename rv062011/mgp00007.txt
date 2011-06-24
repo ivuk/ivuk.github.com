@@ -1,0 +1,11 @@
+
+Host OS
+
+GNU/Linux
+RHEL 5.4 and above
+SLES 11 SP1 and above
+Ubuntu 10.04 LTS and above
+Debian Lenny and above
+other distributions
+FreeBSD (linuxulator) ?
+kqemu, VirtualBox

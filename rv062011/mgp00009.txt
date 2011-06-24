@@ -1,0 +1,8 @@
+
+Basic usage (1/2)
+
+executable - kvm, qemu-kvm
+/usr/libexec/qemu-kvm anyone? (#504046)
+disk image creation - qemu-img
+qemu-img create -f (image format) (image name) (size)
+kvm -m (amount of RAM) - smp (number of CPUs) -cdrom (path to ISO or physical drive) -hda (path to disk image) -boot (cdrom, disk, network) 

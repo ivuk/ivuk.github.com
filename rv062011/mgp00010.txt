@@ -1,0 +1,6 @@
+
+Basic usage (2/2)
+
+examples
+qemu-img create -f qcow2 example.kvm 5G
+kvm -m 1024 -smp 2 -cdrom ~/Downloads/ubuntu-10.04.2-server-amd64.iso -hda example.kvm -boot once=d

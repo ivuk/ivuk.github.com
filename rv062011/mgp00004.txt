@@ -1,0 +1,8 @@
+
+What does it do?
+
+run multiple unmodified Linux or Windows images
+each virtual machine has private virtualized hardware
+a network card
+hard disk
+graphics adapter...

@@ -1,0 +1,13 @@
+
+Features
+
+Virtio
+paravirtualized networking
+paravirtualized block device
+memory ballooning
+memory overcommit
+swapping
+page sharing
+live migration
+PCI passthrough
+USB passthrough

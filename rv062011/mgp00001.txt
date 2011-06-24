@@ -1,0 +1,11 @@
+
+
+
+
+Kernel-based Virtual Machine (KVM)
+
+
+
+
+Igor Vuk
+parcijala@gmail.com

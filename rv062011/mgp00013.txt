@@ -1,0 +1,8 @@
+
+Virtio and block device (2/3)
+
+use raw format
+use raw partition or LVM volume
+-drive file=/dev/mapper/ImagesVolumeGroup-Guest1,cache=none,if=virtio
+paravirtualized block device
+http://manpg.es/1/qemu-img

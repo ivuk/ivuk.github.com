@@ -1,0 +1,10 @@
+
+What is it?
+
+http://www.linux-kvm.org/page/Main_Page
+a full virtualization solution
+for GNU/Linux
+on x86 hardware
+containing virtualization extensions
+Intel VT or AMD-V
+included in mainline Linux, as of 2.6.20

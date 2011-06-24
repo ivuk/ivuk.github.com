@@ -1,0 +1,6 @@
+
+How does it work? (1/2)
+
+a loadable kernel module - kvm.ko
+a processor specific module - kvm-intel.ko or kvm-amd.ko
+a virtualizer - modified QEMU

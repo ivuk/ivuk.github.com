@@ -1,0 +1,9 @@
+
+Virtio and network (1/3)
+
+user-mode networking by default
+bridged setup for performance
+-net tap,ifname=...
+paravirtualized networking
+http://blogs.gnome.org/markmc/2008/05/28/checksums-scatter-gather-io-and-segmentation-offload/
+-net nic,model=virtio,vlan=0,macaddr=00:16:3e:00:01:01

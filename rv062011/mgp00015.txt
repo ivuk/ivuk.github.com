@@ -1,0 +1,7 @@
+
+PCI passthrough
+
+VT-d or IOMMU
+PCI passthrough
+PCI Express passthrough (except for graphic cards)
+http://docs.redhat.com/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Virtualization/chap-Virtualization-PCI_passthrough.html

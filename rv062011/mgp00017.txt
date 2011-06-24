@@ -1,0 +1,8 @@
+
+Management tools
+
+http://www.linux-kvm.org/page/Management_Tools
+libvirt
+virsh
+Virtual Machine Manager
+Proxmox VE

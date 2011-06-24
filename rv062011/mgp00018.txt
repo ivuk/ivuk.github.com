@@ -1,0 +1,8 @@
+
+Tuning KVM for performance
+
+http://publib.boulder.ibm.com/infocenter/lnxinfo/v3r0m0/index.jsp?topic=/liaat/liaatbpkickoff.htm&sf1584438=1
+processor pinning
+storage caching
+memory tuning
+huge page configuration

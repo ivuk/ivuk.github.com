@@ -1,0 +1,9 @@
+
+Guest Support
+
+http://www.linux-kvm.org/page/Guest_Support_Status
+Windows 2k, XP, Server 2k3, Server 2k8, 7, 2k8 R2
+RHEL{3,4,5}, Fedora, Slackware, Debian, Ubuntu, Arch Linux, openSUSE, Crux
+OpenBSD, NetBSD, FreeBSD, DragonFly BSD
+Solaris, Nexenta, QNX
+even HURD and Android :)

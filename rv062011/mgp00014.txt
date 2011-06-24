@@ -1,0 +1,9 @@
+
+Virtio and memory (3/3)
+
+KVM allocates memory as the guest tries to use it
+some guests zero all memory at boot time
+GNU/Linux guests have a balloon driver
+ballooning is controlled in the host
+KSM (Kernel Samepage Merging)
+http://www.kernel.org/doc/Documentation/vm/ksm.txt

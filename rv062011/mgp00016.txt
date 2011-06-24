@@ -1,0 +1,11 @@
+
+Minor annoyances
+
+QEMU guest tools
+copy and paste between guest and host
+http://wolfpackally.wo.funpic.de/qemu/qgt/
+mouse capture
+-usb -usbdevice tablet
+VirtFS
+Plan 9 folder sharing over Virtio - I/O virtualization framework between the guest and host operating systems
+http://wiki.qemu.org/Documentation/9psetup
