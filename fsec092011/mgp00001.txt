@@ -8,4 +8,4 @@ AppArmor
 
 
 Igor Vuk
-ivuk84@gmail.com
+ivuk84 at gmail.com
