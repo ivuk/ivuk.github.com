@@ -1,0 +1,10 @@
+
+Overview(6/6)
+
+AppArmor is not based on labeling or label-based access/transition rules
+No objects in the file system are labeled
+Files are identified by name, not by label
+A process is granted read access to /etc/shadow
+# mv /etc/shadow /etc/shadow.old
+# touch /etc/shadow
+The process has read access to new /etc/shadow, not to /etc/shadow.old

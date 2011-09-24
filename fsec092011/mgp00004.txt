@@ -1,0 +1,5 @@
+
+Overview(3/6)
+
+kernel module and user-space tools licenced under GPL licence
+libapparmor is licenced under LGPL

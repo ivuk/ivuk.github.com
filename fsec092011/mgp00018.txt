@@ -1,0 +1,7 @@
+
+Anatomy of a profile(3/3)
+
+/bin/ping is the name of the profile
+The profile will be automatically used
+flags=(complain) puts the profile into complain mode
+Complain mode can be enabled globally for all profiles

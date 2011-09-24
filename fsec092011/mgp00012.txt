@@ -1,0 +1,6 @@
+
+Profile {loading,replacement,removal}(1/4)
+
+Profiles must be loaded
+Profile sources consist of plain text
+Profiles contain a list of file access rules that may include wildcards

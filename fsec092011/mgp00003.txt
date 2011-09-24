@@ -1,0 +1,10 @@
+
+Overview(2/6)
+
+Protects systems from insecure/untrusted processes
+Runs them in confinement
+Restricts their ability to share files
+Restricts their ability to communicate with other processes
+The restrictions are mandatory
+The restrictions apply to processes running with superuser privileges
+The protection stacks with DAC

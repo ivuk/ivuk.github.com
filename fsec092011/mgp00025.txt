@@ -1,0 +1,8 @@
+
+Some other stuff
+
+Be careful when writing profiles
+Check your #include files
+Pay attention to apps that do NOT have an AppArmor profile
+http://pad.lv/578922
+Watch your rmix-es :)

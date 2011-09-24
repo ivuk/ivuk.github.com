@@ -1,0 +1,10 @@
+
+Overview(5/6)
+
+Protection is selective
+AppArmor only confines processes for which policies(profiles) exist
+To confine an application
+A new profile must be written
+An existing profile must be modified
+A new profile must be generated (via existing user-space tools)
+The application does not need to be modified

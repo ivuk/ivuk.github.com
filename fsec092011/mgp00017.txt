@@ -1,0 +1,16 @@
+
+Anatomy of a profile(2/3)
+
+ #include <tunables/global>
+ /bin/ping flags=(complain) {
+   #include <abstractions/base>
+   #include <abstractions/consoles>
+   #include <abstractions/nameservice>
+
+   capability net_raw,
+   capability setuid,
+   network inet raw,
+
+   /bin/ping mixr,
+   /etc/modules.conf r,
+ }

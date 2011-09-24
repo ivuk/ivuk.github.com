@@ -1,0 +1,10 @@
+
+Overview(1/6)
+
+http://wiki.apparmor.net
+GNU/Linux application security system
+Mandatory Access Control(MAC) framework
+Shipped by Mandriva, OpenSUSE, Ubuntu...
+AppArmor security policies define what system resources individual applications can access, and with what privileges
+Included in mainline Linux, as of 2.6.36
+

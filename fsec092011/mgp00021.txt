@@ -1,0 +1,10 @@
+
+Libvirt(2/5)
+
+The system includes multiple files
+ /etc/apparmor.d/usr.sbin.libvirtd
+ /etc/apparmor.d/usr.lib.virt-aa-helper
+ /etc/apparmor.d/abstractions/libvirt-qemu
+ /etc/apparmor.d/libvirt/TEMPLATE
+ /etc/apparmor.d/libvirt/libvirt-<uuid>
+ /etc/apparmor.d/libvirt/libvirt-<uuid>.files

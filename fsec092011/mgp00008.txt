@@ -1,0 +1,9 @@
+
+The AppArmor security model(1/3)
+
+A file gets accessed via open(2), mkdir(2)...
+Kernel looks up the location of the object
+The result of the lookup is a pair of (dentry, vfsmount) kernel-internal objects
+AppArmor uses the (dentry, vfsmount) pair to compute the pathname of the file
+AppArmor checks if the current profile contains rules that match the pathname and if they allow the requested access
+Accesses that are not explicitly allowed are denied

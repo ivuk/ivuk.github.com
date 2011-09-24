@@ -1,0 +1,6 @@
+
+Libvirt(3/5)
+
+When a VM is started, libvirtd decides whether to ask virt-aa-helper to create a new profile or modify an existing one
+If no profile exists, libvirtd asks virt-aa-helper to generate the new base profile, based on /etc/apparmor.d/libvirt/TEMPLATE
+virt-aa-helper will determine what files are required for the guest to run, updates /etc/apparmor.d/libvirt/libvirt-<uuid>.files, then loads the profile

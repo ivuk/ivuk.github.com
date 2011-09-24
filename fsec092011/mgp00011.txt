@@ -1,0 +1,6 @@
+
+Profile permissions
+
+AppArmor differentiates between more permissions than UNIX does
+
+

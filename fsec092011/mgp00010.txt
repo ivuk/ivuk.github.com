@@ -1,0 +1,7 @@
+
+The AppArmor security model(3/3)
+
+Mount
+Confined processes are denied access to mount(2) and umount(2)
+The kernel NFS daemon
+Considered not suitable for AppArmor confinement

@@ -1,0 +1,7 @@
+
+Libvirt(5/5)
+
+In general, you can forget about AppArmor and just use libvirt
+The guests are isolated from each other
+User-space protection for the host is provided
+The design offers a lot of flexibility

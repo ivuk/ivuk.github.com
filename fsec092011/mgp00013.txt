@@ -1,0 +1,5 @@
+
+Profile {loading,replacement,removal}(2/4)
+
+AppArmor uses securityfs for configuration and reporting
+Profile {loading,replacement,removal} and AppArmor configuration is done via securityfs

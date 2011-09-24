@@ -1,0 +1,6 @@
+
+Anatomy of a profile(1/3)
+
+man 5 apparmor.d
+Profiles are stored in /etc/apparmor.d/
+

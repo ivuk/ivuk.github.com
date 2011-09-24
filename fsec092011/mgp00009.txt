@@ -1,0 +1,9 @@
+
+The AppArmor security model(2/3)
+
+Symbolic links
+The pathname that AppArmor computes never contains symlinks
+If symlinks are used instead of directories(think /tmp) profiles must be adjusted accordingly
+Namespaces
+Unclear at the time
+Creating new namespaces is bound to CAP_SYS_ADMIN capability

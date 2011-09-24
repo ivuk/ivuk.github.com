@@ -1,0 +1,9 @@
+
+Libvirt(1/5)
+
+http://wiki.apparmor.net/index.php/Libvirt
+AppArmor support for confining VMs as of 0.7.2
+The libvirtd process is confined with a lenient profile
+It can launch VMs
+It can change into another AppArmor profile and use virt-aa-helper to to manipulate AppArmor profiles
+virt-aa-helper can {add,remove,modify,load,unload} profiles in a restricted way

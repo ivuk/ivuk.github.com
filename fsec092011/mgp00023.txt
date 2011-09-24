@@ -1,0 +1,5 @@
+
+Libvirt(4/5)
+
+Before the VM is started, libvirtd transitions into the generated profile
+When the VM is terminated, virt-aa-helper unloads the profile 

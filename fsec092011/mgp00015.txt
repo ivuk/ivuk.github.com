@@ -1,0 +1,7 @@
+
+Profile {loading,replacement,removal}(4/4)
+
+Profile loading is performed by apparmor_parser
+ # echo "/tmp/ls { /tmp/ls rm, }"|apparmor_parser
+Replacing an existing profile
+ # echo "/tmp/ls { /tmp/ls rm, }"|apparmor_parser --replace

@@ -1,0 +1,11 @@
+
+Overview(4/6)
+
+It uses resources
+Files
+POSIX.1e capabilities
+No support for ulimit or other additional resources
+It controls access to those resources
+Prevents processes from executing binaries
+Prevents exercising privileges (i.e. acting on behalf of another user)
+Controls which files a process can access in which ways down to the individual file level

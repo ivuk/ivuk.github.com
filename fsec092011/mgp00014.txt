@@ -1,0 +1,10 @@
+
+Profile {loading,replacement,removal}(3/4)
+
+ # mount securityfs -t securityfs /sys/kernel/security
+ # cat /sys/kernel/security/apparmor/profiles
+ /usr/sbin/traceroute (complain)
+ /usr/sbin/tcpdump (enforce)
+ /usr/sbin/smbd (complain)
+ /usr/sbin/libvirtd (enforce)
+ ... 
