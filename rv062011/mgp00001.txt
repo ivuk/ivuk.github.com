@@ -8,4 +8,4 @@ Kernel-based Virtual Machine (KVM)
 
 
 Igor Vuk
-parcijala_at_gmail.com
+ivuk84 at gmail.com
