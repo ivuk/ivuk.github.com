@@ -1,0 +1,11 @@
+
+How it works (9/11)
+
+The SELinux filesystem
+The kernel communicates with userspace via filesystem
+Mounted at /sys/fs/selinux or /selinux
+# cat /sys/fs/selinux/enforcing
+# cat /sys/fs/selinux/disable
+# cat /sys/fs/selinux/load
+Also some thingies in /proc
+$ cat /proc/<PID>/attr/current

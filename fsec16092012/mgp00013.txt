@@ -1,0 +1,8 @@
+
+How it works (4/11)
+
+Security identifiers (SIDs)
+Subjects and objects can be complex
+They are reduced to an identifier (via a table)
+That identifier is called a SID
+A SID table maps from a SID to a matching security context (the mapping works both ways)

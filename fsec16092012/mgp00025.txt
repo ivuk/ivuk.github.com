@@ -1,0 +1,9 @@
+
+Some usage examples (1/1)
+
+sVirt
+Uses the MLS field for VM separation
+Each VM gets a unique MCS label
+http://danwalsh.livejournal.com/30565.html
+Harvard created a PaaS solution that relies on SELinux
+http://opensource.com/education/12/8/harvard-goes-paas-selinux-sandbox

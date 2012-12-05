@@ -1,0 +1,12 @@
+
+Overview (7/8)
+
+MLS has been implemented plenty of times
+Trusted Tru64, Trusted HP-UX, Trusted AIX, Trusted Solaris
+Trusted Solaris components made their way into Solaris 10 and 11
+RBAC is turned on by default in Solaris (10 and newer)
+There is no way to turn it off
+SELinux supports MLS (selinux-policy-mls)
+It does not use MLS by default
+Type enforcement (TE)
+Stuff I'm talking about is mostly based on the targeted policy

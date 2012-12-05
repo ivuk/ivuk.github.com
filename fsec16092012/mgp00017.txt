@@ -1,0 +1,10 @@
+
+How it works (8/11)
+
+Users and roles
+SELinux users are separate from {GNU/Linux, UNIX} users
+Each user has a set of roles that he may operate under
+User can switch to a different role if he has proper permissions to do so
+ENTRYPOINT permission
+# newrole
+http://manpg.es/newrole

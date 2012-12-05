@@ -1,0 +1,12 @@
+
+What we learned so far or what I may have forgot to mention (3/4)
+
+There are some user-space tools that I feel I should mention
+# restorecon
+http://manpg.es/restorecon
+# secon
+http://manpg.es/secon
+# audit2allow
+http://manpg.es/audit2allow
+# setenforce
+http://manpg.es/setenforce

@@ -1,0 +1,8 @@
+
+What we learned so far or what I may have forgot to mention (1/4)
+
+SELinux "knows" if you are a user or an application
+Everybody gets their user, role, type (and MLS)
+We have RBAC, TE and MLS
+Userspace tools such as ps,ls,... have an additional -Z parameter that shows security contexts
+Error messages end up in /var/log/messages or /var/log/audit/audit.log

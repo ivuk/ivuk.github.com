@@ -1,0 +1,9 @@
+
+What we learned so far or what I may have forgot to mention (2/4)
+
+Configuration files are stored in /etc/selinux/
+One can force the relabeling of the entire filesystem on next reboot
+# touch /.autorelabel
+There is a number of predefined contexts that nobody uses :(
+~/.cert
+~/VirtualMachines

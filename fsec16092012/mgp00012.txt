@@ -1,0 +1,8 @@
+
+How it works (3/11)
+
+Access vector cache (AVC)
+A hash map
+From (subject, object, class)
+To allowed permissions
+Queried when kernel needs to make security decisions

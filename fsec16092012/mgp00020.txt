@@ -1,0 +1,8 @@
+
+How it works (11/11)
+
+Policy files
+http://danwalsh.livejournal.com/35127.html
+Written in a text-based language
+Compiled and converted to a binary blob that gets loaded into the kernel
+libsepol implements the functions required for parsing these files

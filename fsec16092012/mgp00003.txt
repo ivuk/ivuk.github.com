@@ -1,0 +1,13 @@
+
+Overview(2/8)
+
+The goal is to create a better form of system security
+Tries to protect you from bugs in applications
+The restrictions SELinux imposes are mandatory
+Default policy is deny
+There is no equivalent of a root user
+The restrictions are immutable (in part)
+The reference policy is immutable
+Access rules depend on attributes given to a certain subject and object pair
+The protection stacks with DAC
+Both are required for an action to be allowed

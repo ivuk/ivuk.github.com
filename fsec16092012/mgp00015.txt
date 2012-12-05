@@ -1,0 +1,11 @@
+
+How it works (6/11)
+
+Booleans
+Contained in the conditional access vector table
+Allow runtime modifications to a security policy without having to load an new policy
+Can be managed from userspace
+# getsebool
+http://manpg.es/getsebool
+# setsebool
+http://manpg.es/setsebool

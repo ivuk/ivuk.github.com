@@ -1,0 +1,11 @@
+
+Overview(4/8)
+
+Mayer, MacMillan, Capman, "SELinux by Example: Using Security Enhanced Linux"
+Reference monitor concept
+Subjects
+Objects
+Reference validation mechanism
+Tamperproof
+Non-bypassable
+Verifiable

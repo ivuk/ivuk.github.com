@@ -1,0 +1,12 @@
+
+Overview(6/8)
+
+This is closely interlinked with military-funded work for developing a policy that would be secure enough for classified government documents
+That's how we got MultiLevel Security (MLS)
+Based on Bell-LaPadula model
+Bell, LaPadula, "Secure Computer Systems: Unified Exposition and MULTICS Interpretation"
+Top secret, secret, confidential, unclassified
+No read up
+No write down
+Write up
+Read down

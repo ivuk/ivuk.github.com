@@ -1,0 +1,7 @@
+
+How it works (10/11)
+
+User-space object managers
+Related to objects that are managed outside the kernel
+libselinux contains the required functions
+Object labeling, global policy queries,...

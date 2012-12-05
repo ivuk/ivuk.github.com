@@ -1,0 +1,11 @@
+
+Overview(1/8)
+
+http://selinuxproject.org/page/Main_Page
+Security enhancement to the GNU/Linux OS
+Mandatory Access Control(MAC) framework
+Shipped by Fedora, RHEL{4,5,6}, Debian, ...
+Provides the mechanism for supporting access control security policies, including US DoD mandatory access controls, through the use of LSM in the Linux kernel
+(http://en.wikipedia.org/wiki/SELinux)
+Included in mainline Linux, as of 2.6
+

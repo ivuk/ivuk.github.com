@@ -1,0 +1,8 @@
+
+How it works (5/11)
+
+The security server
+Triggered if AVC does not have the required  answer cached
+Security server interprets the policy from userspace
+Considers booleans
+Considers constraints

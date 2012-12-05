@@ -1,0 +1,9 @@
+
+What we learned so far or what I may have forgot to mention (4/4)
+
+We also have audit2why (good luck)
+There is a difference between what a user can do and what an application can do
+Once upon a time there was a NULL pointer dereference...
+http://eparis.livejournal.com/606.html
+Beware the m4 :)
+Running your system with SELinux disabled and then enabling it can be challenging

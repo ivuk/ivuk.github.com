@@ -1,0 +1,8 @@
+
+How it works (7/11)
+
+Constraints
+http://danwalsh.livejournal.com/12333.html
+Used to prevent people from writing bad policies
+In case of MLS, to enforce rules governing information flow
+neverallow

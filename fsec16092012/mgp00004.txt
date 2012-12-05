@@ -1,0 +1,11 @@
+
+Overview(3/8)
+
+Relies on several basic concepts
+Subjects (i.e. processes)
+Objects (i.e. files, folders, sockets...)
+Access vectors (rules)
+Attributes of subjects and objects are called security contexts
+A combination of kernel modules and user-space tools
+Don't forget about the reference policy
+Licensed under GPL licence

@@ -1,0 +1,11 @@
+
+How it works (1/11)
+
+http://www.imperialviolet.org/2009/07/14/selinux.html
+May X do Y to Z?
+Subjects (u32 SIDs)
+Objects (u32 SIDs)
+Actions
+Classes (FILE, TCP_SOCKET,...)
+Permissions (READ, WRITE, ENTRYPOINT,...)
+Security policy
