@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>~ivuk</title>
+	<meta name="keywords" content="ivuk, blog, github">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="sixteen columns">
+			<h2>~ivuk</h2>
+			<hr />
+		</div>
+		<div class="three columns">
+			<p>
+			<a href="index.html">Home page</a><br />
+			<a href="https://github.com/ivuk">GitHub</a><br />
+			<a href="https://hr.linkedin.com/in/igorvuk">LinkedIn</a>
+			</p>
+		</div>
+		<div class="thirteen columns">
+			<h3>
+			Ubuntu GNU/Linux on Macbook Air (mid-2013, Haswell)
+			</h3>
+			<p>
+			Getting GNU/Linux to run on a Macbook Air turned out to be quite easy, with only minor annoyances so far. Don't
+			forget the standard YMMV disclaimer if you choose to do anything described here.
+			</p>
+			<p>
+			Free some space on your Macbook, by using the <i>Disk Utility</i> or some other method. Get the latest Ubuntu ISO
+			(13.10 at the time of writing).
+			</p>
+			<p>
+			Once you have obtained an Ubuntu ISO image (amd64, "normal" non-mac version) and wrote it to a USB,
+			plug the USB into the Macbook and boot it while holding the <i>Alt</i> key. Select the Ubuntu option, which
+			gets you to a familiar GRUB2 screen. Install the thing as you'd usually do.
+			</p>
+			<p>
+			Once the installation completes and you reboot the computer, Mac OS X will boot, skipping GRUB2 completely.
+			<i>Bless</i> the installed <i>grubx64.efi</i> binary from Mac OS X so it actually starts working:
+			</p>
+			<pre>
+$ mkdir /Volumes/temp
+$ sudo mount -t msdos /dev/disk0s1 /Volumes/temp
+$ sudo bless --mount /Volumes/temp --setBoot --file /Volumes/temp/EFI/ubuntu/grubx64.efi
+			</pre>
+			<p>
+			On the next boot, you will be greeted by a gray screen. Just wait patiently for 30 seconds and GRUB2 should start.
+			In order to fix this delay, copy the <i>grubx64.efi</i> binary to <i>/boot/efi/EFI/BOOT/BOOTX64.EFI</i>. Reboot the
+			machine and hold the <i>Alt</i> button, the GRUB2 should be visible in the menu this time. In order to boot directly
+			to GRUB2 without delay, it needs to be <i>blessed</i>. The instructions for doing so are in the
+			<a href="https://wiki.debian.org/InstallingDebianOn/Apple/MacBookAir/6-1">Debian wiki</a>:
+			</p>
+			<pre>
+$ mkdir /Volumes/EFI
+$ sudo mount -t msdos /dev/disk0s1 /Volumes/EFI
+$ sudo bless --folder=/Volumes/EFI --file=/Volumes/EFI/EFI/BOOT/BOOTX64.EFI --setBoot
+$ sudo bless --mount "/Volumes/EFI" --setBoot
+			</pre>
+			<p>
+			GRUB2 will try to add entries for booting the Mac OS X directly, which didn't work for me. In order to chainload
+			OS X bootloader the <i>/etc/grub.d/40_custom</i> file needs to be changed:
+			</p>
+			<pre>
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+menuentry "Mac OS X Chainload" {
+        insmod hfsplus
+        set root='(hd0,gpt2)'
+        chainloader /System/Library/CoreServices/boot.efi
+}
+			</pre>
+			<p>
+			Run <i>sudo update-grub</i> after changing the file.
+			</p>
+			<p>
+			Once you've booted to Ubuntu, plug in the USB stick that was used for installing Ubuntu. From the USB, install the
+			<i>dkms</i> and <i>bcmwl-kernel-source</i> packages. That should get the wireless running. Feel free to update the
+			installed packages at this time.
+			</p>
+			<p>
+			At this point, suspending the machine will end with brightness problems upon resume. Install the
+			<a href="https://github.com/patjak/mba6x_bl">mba6x_bl</a> backlight module to fix it.
+			</p>
+			<p>
+			As far as non-working stuff is concerned, the camera seems to be the only thing that's not working at the moment.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
